@@ -16,7 +16,7 @@
       <div *ngFor='let quote of quotes;let i = index'>
         <li appHighlight *ngIf= 'highlight(i) && quote.upvote > 0' >{{quote.name}}</li>
         <li  *ngIf= '!highlight(i) ||  quote.upvote === 0' >{{quote.name}}</li>
-        <app-quote-details [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+        <app-quote-details [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details
       </div>
     </div>
   </div>
