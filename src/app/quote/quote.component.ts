@@ -16,7 +16,7 @@ export class QuoteComponent implements OnInit {
   ];
   deleteQuote(isComplete: any, index: number) {
     if (isComplete) {
-      this.quotes.splice(index, 1);
+      this.quotes.splice(index, 1)
     }
   }
   addNewQuote(quote: Quotes) {
