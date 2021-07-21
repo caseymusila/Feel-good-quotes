@@ -1,0 +1,23 @@
+<div style="text-align:center" class="app">
+
+  <h1 class="jumbotron1">
+    <img src="https://images.pexels.com/photos/1449844/pexels-photo-1449844.jpeg?cs=srgb&dl=pexels-mstudio-1449844.jpg&fm=jpg" alt="logo" height="100px">
+    Feel-Good-Quotes
+  </h1>
+
+
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <app-quoteform (addQuote)="addNewQuote($event)"></app-quoteform>
+    </div>
+    <div class="col">
+      <div *ngFor='let quote of quotes;let i = index'>
+        <li appHighlight *ngIf= 'highlight(i) && quote.upvote > 0' >{{quote.name}}</li>
+        <li  *ngIf= '!highlight(i) ||  quote.upvote === 0' >{{quote.name}}</li>
+        <app-quote-details [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+      </div>
+    </div>
+  </div>
+</div>
