@@ -18,11 +18,11 @@ export class QuoteDetailsComponent implements OnInit {
 
   upvote(){
 
-    this.quote.upvote = this.quote.upvote +1
+    this.quote.upvote = this.quote.upvote +1;
   }
   downvote(){
 
-    this.quote.downvote = this.quote.downvote + 1;
+    this.quote.downvote = this.quote.downvote + 1
   }
 
   constructor() { }
