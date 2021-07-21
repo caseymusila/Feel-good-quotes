@@ -42,7 +42,7 @@ Clone the repository to your local machine from the online repository.(https://g
 phone number:0702251956 for inquries and contributions.}
 
 ## License
-LICENSE 
+LICENSE (https://github.com/caseymusila/Feel-good-quotes/blob/master/LICENSE)
 
 
 ## Acknowledgments
