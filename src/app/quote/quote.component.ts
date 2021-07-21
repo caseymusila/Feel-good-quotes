@@ -34,9 +34,9 @@ export class QuoteComponent implements OnInit {
       this.quotes.forEach(quote => votes.push(quote.upvote));
       if (check === Math.max(...votes)) {
         return true;
-      
+      }
     }
-    return false;
+    return false
 
   }
 
