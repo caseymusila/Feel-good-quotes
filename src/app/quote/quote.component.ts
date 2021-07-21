@@ -36,7 +36,7 @@ export class QuoteComponent implements OnInit {
         return true;
       }
     }
-    return false
+    return 
 
   }
 
