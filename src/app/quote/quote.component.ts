@@ -23,7 +23,7 @@ export class QuoteComponent implements OnInit {
     let quoteLength = this.quotes.length;
     quote.id = quoteLength + 1;
     quote.date = new Date(quote.date)
-    this.quotes.push(quote
+    this.quotes.push(quote)
 
   }
 
@@ -34,7 +34,7 @@ export class QuoteComponent implements OnInit {
       this.quotes.forEach(quote => votes.push(quote.upvote));
       if (check === Math.max(...votes)) {
         return true;
-      }
+      
     }
     return false;
 
