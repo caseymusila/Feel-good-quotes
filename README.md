@@ -11,7 +11,7 @@
 Clone the repository to your local machine from the online repository.(https://github.com/caseymusila/Feel-good-quotes.git)
 
 ## live site
-{click here to acess the live site
+{click here to acess the live site https://caseymusila.github.io/Feel-good-quotes/
 }
 
 ## Technologies Used
