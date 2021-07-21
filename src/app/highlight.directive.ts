@@ -8,7 +8,7 @@ export class HighlightDirective {
 
   constructor(private el: ElementRef) { }
   highlightElement() {
-    this.el.nativeElement.style.backgroundColor = 'black';
+    this.el.nativeElement.style.backgroundColor = 'blue';
     this.el.nativeElement.style.color = 'black';
   }
   ngOnInit() {
