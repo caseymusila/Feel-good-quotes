@@ -16,14 +16,14 @@ export class QuoteComponent implements OnInit {
   ];
   deleteQuote(isComplete: any, index: number) {
     if (isComplete) {
-      this.quotes.splice(index, 1)
+      this.quotes.splice(index, 1);
     }
   }
   addNewQuote(quote: Quotes) {
     let quoteLength = this.quotes.length;
     quote.id = quoteLength + 1;
     quote.date = new Date(quote.date)
-    this.quotes.push(quote)
+    this.quotes.push(quote
 
   }
 
